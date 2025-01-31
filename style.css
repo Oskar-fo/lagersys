@@ -1,0 +1,35 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.topb{
+    width: 99.95%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    overflow: hidden;
+    border-bottom: 1px solid black;
+}
+.utstyr{
+    position: absolute;
+    right: 0%;
+    padding-left: 5%;
+    padding-right: 50%;
+    background-color: #fafafa;
+    border-left: 1px inset black;
+    border-bottom: 1px inset black;
+    border-right: 1px inset black;
+}
+li{
+    background-color: #fafafa;
+    padding-right: 370%;
+    padding-left: 5%;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+ul{
+    list-style: none;
+}

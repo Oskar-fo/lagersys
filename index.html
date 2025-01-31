@@ -3,14 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lager Liste</title>
-    <link href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="liste">
-
+    <div class="topb">
+        <h1>Utleie</h1>
+    </div>
+    <div class="utstyr">
+        <section>
+            <h2>Utstyr til lån</h2>
+            <input id="nyttElement" type="text" placeholder="Legg til Utstyr">
+            <button id="leggTil">Registrer</button>
+            <button id="sorter">Sorter</button>
+            <ul id="liste"></ul>
+        </section>
     </div>
 <script src="script.js"></script>
 </body>
